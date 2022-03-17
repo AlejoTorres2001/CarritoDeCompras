@@ -10,3 +10,5 @@ la funcionalidad del carrito de compras es la siguiente:
 Sin embargo, usted se dio cuenta que el carrito ya FUE implementado por otro porgramador, pero no cuenta con todas las funcionalidades, por lo que usted decide implementarlo de manera que sea una aplicación completa.
 
  ## **Se le ocurre alguna funcionalidad para agregar ?**
+
+*Caso contrario, deje unas sugerencias en projects*

@@ -11,4 +11,4 @@ Sin embargo, usted se dio cuenta que el carrito ya FUE implementado por otro por
 
  ## **Se le ocurre alguna funcionalidad para agregar ?**
 
-*Caso contrario, deje unas sugerencias en projects*
+*De ser asi, deje unas sugerencias en projects o implementela usted*

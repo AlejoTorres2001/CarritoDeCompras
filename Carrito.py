@@ -6,7 +6,7 @@ class Carrito():
         
     def agregar(self, producto,cantidad=1):
         self.productos.append([producto,cantidad])
-        self.total += producto.precio
+        self.total += producto.precio*cantidad
         self.cantidad_total += cantidad
         
     def quitar(self, producto):
@@ -23,5 +23,5 @@ class Carrito():
     def __str__(self):
         prods=""
         for prod in self.productos:
-          prods+=f"Nombre:{prod[0].nombre} Precio: {str(prod[0].precio)} Cantidad: {str(prod[0].stock) } \n"
+          prods+=f"Nombre:{prod[0].nombre} Precio: {str(prod[0].precio)} Cantidad: {str(prod[1]) } \n"
         return "Carrito: \n" + prods + " Total A Pagar: " + str(self.total) + " Cantidad de productos: " + str(self.cantidad_total)

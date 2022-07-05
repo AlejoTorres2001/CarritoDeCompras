@@ -6,3 +6,4 @@ class Producto():
   def __str__(self):
     return "Nombre: " + self.nombre + " Precio: " + str(self.precio) + " Stock: " + str(self.stock)
   
+
